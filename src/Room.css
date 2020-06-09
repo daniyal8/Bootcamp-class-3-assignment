@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .room{
     height: 100vh;
 }
@@ -19,7 +25,17 @@
     margin-left: 20px;
     margin-top: 20px;
 }
-.button1.active{
+
+.button1:focus{
+    outline: none;
+}
+.button2:focus{
+    outline: none;
+}
+.button3:focus{
+    outline: none;
+}
+.button4:focus{
     outline: none;
 }
 .button1:hover{

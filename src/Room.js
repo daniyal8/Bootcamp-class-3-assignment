@@ -25,7 +25,7 @@ function Room() {
                         console.log("Increase age arrow function");
                         setTemprature(--Temprature);
                         }}>
-            _
+            -
         </button>
     </div>
     );
