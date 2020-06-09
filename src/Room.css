@@ -1,0 +1,46 @@
+.room{
+    height: 100vh;
+}
+.lit{
+    background-color: black;
+    color: white;
+}
+.button1{
+    border-radius: 10px;
+    height: 30px;
+    border-color: navy;
+    background-color: white;
+}
+.button2{
+    border-radius: 10px;
+    height: 30px;
+    border-color: navy;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.button1.active{
+    outline: none;
+}
+.button1:hover{
+    background-color: lightblue;
+}
+.button2:hover{
+    background-color: lightblue;
+}
+#button4{
+    border-radius: 3px;
+    border-color: green;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#button4:hover{
+    background-color: yellow;
+}
+#button3{
+    border-radius: 3px;
+    border-color: green;
+}
+#button3:hover{
+    background-color: yellow;
+}
